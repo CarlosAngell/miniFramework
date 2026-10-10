@@ -1,4 +1,4 @@
-# Ignore os arquivos de sistema do Mac
+# Ignore os arquivos de log
 *.log
 
 # Ignore a pasta node_modules
