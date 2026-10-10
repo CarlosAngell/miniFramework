@@ -1,0 +1,19 @@
+{
+    "name": "carlos/mini-framework",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        },
+        "files": [
+            "app/Helpers/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Carlos Angel"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}

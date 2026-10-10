@@ -1,0 +1,11 @@
+[Tue Mar 24 02:12:38.284206 2026] [php:error] [pid 13:tid 13] [client 172.19.0.1:56946] script '/var/www/miniframework/public/login.php' not found or unable to stat
+[Tue Mar 24 02:13:39.500492 2026] [php:error] [pid 10:tid 10] [client 172.19.0.1:43148] script '/var/www/miniframework/public/auth.php' not found or unable to stat
+[Tue Mar 24 02:13:48.536334 2026] [php:error] [pid 11:tid 11] [client 172.19.0.1:43152] script '/var/www/miniframework/public/login.php' not found or unable to stat
+[Tue Mar 24 02:17:57.961833 2026] [php:error] [pid 9:tid 9] [client 172.19.0.1:38516] script '/var/www/miniframework/public/UserController.php' not found or unable to stat
+[Tue Mar 24 02:24:23.414452 2026] [php:error] [pid 9:tid 9] [client 172.19.0.1:32778] script '/var/www/miniframework/public/UserController.php' not found or unable to stat
+[Tue Mar 24 02:24:27.439278 2026] [php:error] [pid 9:tid 9] [client 172.19.0.1:32778] script '/var/www/miniframework/public/userController.php' not found or unable to stat
+[Tue Mar 24 02:24:35.466758 2026] [php:error] [pid 13:tid 13] [client 172.19.0.1:41084] script '/var/www/miniframework/public/userController.php' not found or unable to stat
+[Tue Mar 24 02:24:50.383499 2026] [php:error] [pid 10:tid 10] [client 172.19.0.1:33600] script '/var/www/miniframework/public/users.php' not found or unable to stat
+[Tue Mar 24 03:14:29.874608 2026] [php:error] [pid 12:tid 12] [client 172.19.0.1:49538] script '/var/www/miniframework/public/login.php' not found or unable to stat
+[Tue Mar 24 03:15:01.481200 2026] [php:error] [pid 9:tid 9] [client 172.19.0.1:34716] script '/var/www/miniframework/public/login.php' not found or unable to stat
+[Tue Mar 24 03:29:56.303816 2026] [php:error] [pid 13:tid 13] [client 172.19.0.1:50252] script '/var/www/miniframework/public/users.php' not found or unable to stat

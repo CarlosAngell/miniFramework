@@ -1,0 +1,9 @@
+RewriteEngine On
+
+# NÃO reescreve se já for index.php
+RewriteRule ^index\.php(/.*)?$ - [L]
+
+# Redireciona tudo para index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [QSA,L]
