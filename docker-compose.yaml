@@ -2,20 +2,21 @@ services:
   http:
     container_name: httpd.miniframework
     build:
-      context: ./Docker
+      context: ./docker
       dockerfile: httpd.Dockerfile
     ports:
       - '80:80'
       - '443:443'
     volumes:
-      - C:/Users/Carlos/Desktop/projeto/miniframework/:/var/www/miniframework
+    # O ./ representa o diretório atual do projeto, relativo à localização do arquivo Compose.
+      - ./:/var/www/miniframework
     networks:
       - private_network
 
   postgres:
     container_name: postgres
     build:
-      context: ./Docker
+      context: ./docker
       dockerfile: postgres.Dockerfile
     ports:
       - '5432:5432'
