@@ -2,7 +2,7 @@
 
 namespace App\Models;
 
-use App\core\BaseModel;
+use App\Core\BaseModel;
 use App\Core\Database;
 use PDO;
 
@@ -25,14 +25,21 @@ class UsersBaseModel extends BaseModel
         return $statement->fetchAll(PDO::FETCH_ASSOC);
     }
 
-    public function create(array $data) {}
+    public function create(array $data) {
+        // Ainda vai ser implementado
+    }
 
-    public function update(int $id, array $data) {}
+    public function update(int $id, array $data) {
+        // Ainda vai ser implementado
+    }
 
-    public function delete(int $id) {}
+    public function delete(int $id) {
+        // Ainda vai ser implementado
+    }
 
     public function save(): bool
     {
-        return 1;
+        // Ainda vai ser implementado
+        return true;
     }
 }

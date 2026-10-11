@@ -1,0 +1,12 @@
+APP_NAME="Name of the app"
+APP_DEBUG=true
+
+DB_HOST=db_host
+DB_NAME=db_name
+DB_CONNECTION=pgsql
+DB_USER=username
+DB_PASS="password"
+
+# Opcional
+APP_URL=host
+SESSION_NAME=app_session

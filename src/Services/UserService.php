@@ -10,6 +10,7 @@ class UserService
 
     public function __construct()
     {
+
         $this->model = new Users();
     }
 
@@ -43,7 +44,6 @@ class UserService
 
         // gerar hash seguro da senha
         $data['password'] = password_hash($data['password'], PASSWORD_ARGON2ID, $options);
-        prexit($data['password']);
 
         // salvar
         //$this->model->insert($data);
